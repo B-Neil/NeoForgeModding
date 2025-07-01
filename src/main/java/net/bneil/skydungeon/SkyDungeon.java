@@ -1,5 +1,6 @@
 package net.bneil.skydungeon;
 
+import net.bneil.skydungeon.block.ModBlocks;
 import net.bneil.skydungeon.item.ModItems;
 import org.slf4j.Logger;
 
@@ -55,6 +56,7 @@ public class SkyDungeon {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -72,6 +74,11 @@ public class SkyDungeon {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.BISMUTH);
             event.accept(ModItems.RAW_BISMUTH);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.BISMUTH_BLOCK);
+            event.accept(ModBlocks.BISMUTH_ORE);
         }
     }
 

@@ -1,4 +1,8 @@
 {
   "item.skydungeon.bismuth": "Bismuth",
-  "item.skydungeon.raw_bismuth": "Raw Bismuth"
+  "item.skydungeon.raw_bismuth": "Raw Bismuth",
+
+
+  "block.skydungeon.bismuth_block": "Block of Bismuth",
+  "block.skydungeon.bismuth_ore": "Bismuth Ore"
 }
