@@ -15,9 +15,10 @@
   "block.skydungeon.magic_block": "Magic Block",
 
 
-
-
-
+  "tooltip.skydungeon.magic_block.tooltip": "This block is very §9magical§r",
+  "tooltip.skydungeon.chisel.shift_down" : "Why not",
+  "tooltip.skydungeon.chisel": "Press shift for mor info",
+  "tooltip.skydungeon.radish.tooltip": "Yummy food!",
 
 
   "creativetab.skydungeon.bismuth_items": "Bismuth Items",
