@@ -1,0 +1,13 @@
+// 1.21.1	2025-07-02T17:45:26.1549419	Block States: skydungeon
+99a822479448d863d133ee87a63979f5ac983300 assets/skydungeon/blockstates/bismuth_block.json
+3fd1ddfc29387aa5d0bff1248a0e314fcd8f8c13 assets/skydungeon/blockstates/bismuth_deepslate_ore.json
+e452ba8420db41cf0580bc59ee78cdca92019e2c assets/skydungeon/blockstates/bismuth_ore.json
+15612dadc024529898fadeec093d7251a5218550 assets/skydungeon/blockstates/magic_block.json
+a731476fb2a5e2205b0cf70e4cdc647a584d7201 assets/skydungeon/models/block/bismuth_block.json
+e1d199a1d78c234ef794e8aaa20fe3ea18be2da2 assets/skydungeon/models/block/bismuth_deepslate_ore.json
+01e36d5c67993b56225c8dd79d827f2c4960b5b7 assets/skydungeon/models/block/bismuth_ore.json
+d9d44bed170bb51b7c8b8402e802146be86ca243 assets/skydungeon/models/block/magic_block.json
+c62056eb7c0cc123fb3c02c03477eeee1f1bd370 assets/skydungeon/models/item/bismuth_block.json
+bc932deb0d03514ad98755d02d4ea4b3d2ce065a assets/skydungeon/models/item/bismuth_deepslate_ore.json
+8d0d37b4f75fd8971d31a5de37999b778128aac0 assets/skydungeon/models/item/bismuth_ore.json
+06687f527cb3b30347d29a191eb41c9485b29b74 assets/skydungeon/models/item/magic_block.json

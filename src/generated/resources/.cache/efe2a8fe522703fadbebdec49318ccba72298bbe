@@ -1,0 +1,3 @@
+// 1.21.1	2025-07-02T17:45:26.1493341	Tags for minecraft:block mod id skydungeon
+928313aafab74d66640de0f02e94cceb290b5447 data/minecraft/tags/block/mineable/pickaxe.json
+75333f773da5cd856b64558c741f5fa2d3153711 data/minecraft/tags/block/needs_iron_tool.json
