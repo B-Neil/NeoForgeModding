@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "skydungeon:bismuth_block",
+    "skydungeon:bismuth_ore",
+    "skydungeon:bismuth_deepslate_ore"
+  ]
+}
