@@ -1,6 +1,7 @@
 package net.bneil.skydungeon.block.custom;
 
 import net.bneil.skydungeon.item.ModItems;
+import net.bneil.skydungeon.util.ModTags;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 import net.minecraft.sounds.SoundEvents;
@@ -35,7 +36,7 @@ public class MagicBlock extends Block {
     @Override
     public void stepOn(Level level, BlockPos pos, BlockState state, Entity entity) {
         if(entity instanceof ItemEntity itemEntity) {
-            if(itemEntity.getItem().getItem() == ModItems.RAW_BISMUTH.get()) {
+            if(isValidItem(itemEntity.getItem())) {
                 itemEntity.setItem(new ItemStack(Items.DIAMOND, itemEntity.getItem().getCount()));
             }
 
@@ -47,11 +48,13 @@ public class MagicBlock extends Block {
         super.stepOn(level, pos, state, entity);
     }
 
+    private boolean isValidItem(ItemStack item) {
+        return item.is(ModTags.Items.TRANSFORMABLE_ITEMS);
+    }
+
     @Override
     public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
         tooltipComponents.add(Component.translatable("tooltip.skydungeon.magic_block.tooltip"));
         super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
     }
-
-
 }
