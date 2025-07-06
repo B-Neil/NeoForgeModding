@@ -1,4 +1,14 @@
-// 1.21.1	2025-07-02T17:45:26.1526873	Loot Tables
+// 1.21.1	2025-07-06T17:17:55.8966235	Loot Tables
 31dba1afc9e4bbbc08bc7c773fe584f81298a413 data/skydungeon/loot_table/blocks/bismuth_block.json
+c1255af87f3714172a410facd2f6f2a503edb1ec data/skydungeon/loot_table/blocks/bismuth_button.json
 2c5480f82eca4981bca46bf7e953f87f8d297b09 data/skydungeon/loot_table/blocks/bismuth_deepslate_ore.json
+9f67262950cb1a8ae7aa64e2fe5b51d44cd0ba86 data/skydungeon/loot_table/blocks/bismuth_door.json
+730b7a44f1b7a87f2cff9007e80d90ea0099346d data/skydungeon/loot_table/blocks/bismuth_fence.json
+7429061e82204cd697635ede1de890d63fd29417 data/skydungeon/loot_table/blocks/bismuth_fence_gate.json
+0c370693563f00ffed0d6a2047eaa90e7514e782 data/skydungeon/loot_table/blocks/bismuth_lamp.json
 3a1e218427b9659d034f5986eb34148c845b3906 data/skydungeon/loot_table/blocks/bismuth_ore.json
+deb7d178beb7903b02959c835ff6c6c6accaf647 data/skydungeon/loot_table/blocks/bismuth_pressure_plate.json
+1b7e67656e6c00dde32f78959ef8c080eeb6347d data/skydungeon/loot_table/blocks/bismuth_slab.json
+9c89c7b7e5bffb031333bbb20a376c999183ed61 data/skydungeon/loot_table/blocks/bismuth_stairs.json
+9f0a272aa0beb3453292f23a3232e09a021693ec data/skydungeon/loot_table/blocks/bismuth_trapdoor.json
+d68bd846ea4f3930367fd79a08074ce90266f747 data/skydungeon/loot_table/blocks/bismuth_wall.json

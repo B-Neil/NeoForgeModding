@@ -1,3 +1,6 @@
-// 1.21.1	2025-07-02T17:45:26.1493341	Tags for minecraft:block mod id skydungeon
+// 1.21.1	2025-07-06T17:05:59.3669106	Tags for minecraft:block mod id skydungeon
+2373b3fb6f7b4a43471e34f0babac32da6e9c0a4 data/minecraft/tags/block/fences.json
+10b126710b99ec16828ff0d3423cfe320eac3351 data/minecraft/tags/block/fence_gates.json
 928313aafab74d66640de0f02e94cceb290b5447 data/minecraft/tags/block/mineable/pickaxe.json
 75333f773da5cd856b64558c741f5fa2d3153711 data/minecraft/tags/block/needs_iron_tool.json
+93b08fb4d9334bf4fa259b3ad2b5b0601bb5fd92 data/minecraft/tags/block/walls.json

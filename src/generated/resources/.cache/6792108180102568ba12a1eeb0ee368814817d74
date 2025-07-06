@@ -1,5 +1,9 @@
-// 1.21.1	2025-07-02T17:45:26.1537871	Item Models: skydungeon
+// 1.21.1	2025-07-06T17:05:59.3710627	Item Models: skydungeon
 6f148a2acfa122c4146c802fa699955ee5e0f519 assets/skydungeon/models/item/bismuth.json
+17318962c6f86f99c7f31b072d360d025a72519a assets/skydungeon/models/item/bismuth_button.json
+b1ecb8ad99e19479cd79895a7971c4c72400f746 assets/skydungeon/models/item/bismuth_door.json
+f836cdec9a2d7992cb5bd863b8d9d3b15a3ed350 assets/skydungeon/models/item/bismuth_fence.json
+9173d4bbcac1021e46968347165eb0fb4d2f08e4 assets/skydungeon/models/item/bismuth_wall.json
 568a77a487687852bed214b912f0d6769280195e assets/skydungeon/models/item/chisel.json
 aedb4b1ec517e5e3a84c82a3d2fe11cc809f1907 assets/skydungeon/models/item/frostfire_ice.json
 44b539ba663004ffe71743bacf4d31b2092d0ef4 assets/skydungeon/models/item/radish.json
