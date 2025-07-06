@@ -1,6 +1,7 @@
 package net.bneil.skydungeon.item.custom;
 
 import net.bneil.skydungeon.block.ModBlocks;
+import net.bneil.skydungeon.component.ModDataComponents;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.client.multiplayer.ClientLevel;
 import net.minecraft.network.chat.Component;
@@ -24,7 +25,6 @@ public class ChiselItem extends Item {
     private static final Map<Block, Block> CHISEL_MAP =
             Map.of(
                     Blocks.STONE, Blocks.STONE_BRICKS,
-                    Blocks.STONE_BRICKS, Blocks.STONE,
                     Blocks.END_STONE, Blocks.END_STONE_BRICKS,
                     Blocks.DEEPSLATE, Blocks.DEEPSLATE_BRICKS,
                     Blocks.GOLD_BLOCK, Blocks.IRON_BLOCK,
@@ -49,6 +49,8 @@ public class ChiselItem extends Item {
                         item -> context.getPlayer().onEquippedItemBroken(item, EquipmentSlot.MAINHAND));
 
                 level.playSound(null, context.getClickedPos(), SoundEvents.GRINDSTONE_USE, SoundSource.BLOCKS);
+
+                //context.getItemInHand().set(ModDataComponents.COORDINATES, context.getClickedPos());
             }
         }
 
@@ -62,6 +64,13 @@ public class ChiselItem extends Item {
         } else {
             tooltipComponents.add(Component.translatable("tooltip.skydungeon.chisel"));
         }
+
+        /*
+        if(stack.get(ModDataComponents.COORDINATES) != null) {
+            tooltipComponents.add(Component.literal("Last Block changed at " + stack.get(ModDataComponents.COORDINATES)));
+        }
+
+         */
         super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
     }
 }
