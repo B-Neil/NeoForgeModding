@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "skydungeon:block/bismuth_lamp_off"
+    },
+    "clicked=true": {
+      "model": "skydungeon:block/bismuth_lamp_on"
+    }
+  }
+}

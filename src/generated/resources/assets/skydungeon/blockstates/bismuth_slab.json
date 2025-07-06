@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "skydungeon:block/bismuth_slab"
+    },
+    "type=double": {
+      "model": "skydungeon:block/bismuth_block"
+    },
+    "type=top": {
+      "model": "skydungeon:block/bismuth_slab_top"
+    }
+  }
+}
